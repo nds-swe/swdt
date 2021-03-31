@@ -3,12 +3,12 @@ module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://nds-swe.github.io',
-  baseUrl: '/',
+  baseUrl: '/swdt/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'nds-swe', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: 'swdt', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
