@@ -1,7 +1,10 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const remarkMermaid = require("remark-mermaid-dataurl");
+const remarkSimplePlantUML = require("@akebifiky/remark-simple-plantuml");
+
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Software Design & Testing',
+  tagline: 'Connecting all dots for striving to-be Software Engineers',
   url: 'https://nds-swe.github.io',
   baseUrl: '/swdt/',
   onBrokenLinks: 'throw',
@@ -11,9 +14,9 @@ module.exports = {
   projectName: 'swdt', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Software Design',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'DevOps',
         src: 'img/logo.svg',
       },
       items: [
@@ -25,8 +28,8 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://github.com/nds-swe/swdt',
+          label: 'Docs',
           position: 'right',
         },
       ],
@@ -47,16 +50,16 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Discussions',
+              href: 'https://github.com/nds-swe/swdt/discussions',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Issues',
+              href: 'https://github.com/nds-swe/swdt/issues',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Teams 🔐',
+              href: 'https://teams.microsoft.com/l/channel/19%3af545079c53aa47d0b82ccf7bae1d5a75%40thread.tacv2/Community?groupId=d794a7f5-3cc1-421a-834b-ce19702ac37f&tenantId=1bef538c-eab8-4b8e-94a7-1c6353044cd6',
             },
           ],
         },
@@ -68,13 +71,13 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
+              label: 'Docusaurus 🦖',
               href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Dominik Meyer. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -85,13 +88,21 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/nds-swe/swdt/edit/main/',
+            remarkPlugins: [
+              remarkMermaid,
+              remarkSimplePlantUML
+            ],
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/nds-swe/swdt/edit/main/blog/',
+          remarkPlugins: [
+            remarkMermaid,
+            remarkSimplePlantUML
+          ],
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

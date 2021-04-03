@@ -3,26 +3,34 @@ title: Getting Started
 slug: /
 ---
 
-## Step 1: Generate a new Docusaurus site
+Welcome to the Software Design and Testing lecture. Read this summary to know how to navigate the docs.
 
-If you haven't already, generate a new Docusaurus site using the classic template:
+The lecture as well as the docs are separated into three main topics:
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+**Techniques, Tools and Tasks.** There is also a **theory** section, a **help** area and a **blog** but they just complete these docs.
 
-## Step 2: Start your Docusaurus site
+## Theory
+Our lecture is practice oriented, none the less some concepts are purely theoretical. In this section you find theoretical abstracts of subjects we touch. Mostly this is complementary lecture as we will focus on the practical part in **Techniques**.
 
-Run the development server in the newly created `my-website` folder:
+## Techniques
+:::note
+How do we do something? How do we approach it, what is it good for, what is the output?
+:::
+Questions like these we approach in **Techniques**. Not always can they be separated 100% from Tools or Theory but it makes sense to not talk about the configuration parameters of a tool when we just want to learn a method, recipe or technique.
 
-```shell
-cd my-website
+## Tools
+:::note
+With which tools can we apply or support a technique? How does it work and where can you get started?
+:::
+The tools we investigate and use are picked from experience. For all of them many alternatives exist - we care more about how we can use them to apply a technique.
+Never will the official docs be repeated, but there will be pointers where you can start.
 
-npx docusaurus start
-```
+## Tasks
+Obviously we want to train what we see in Theory and Techniques. Most tasks will use a _recommended_ tools, but feel free to come up with a tool of your own. The way and result count, not that you master a tool to perfection.
 
-Open `docs/getting-started.md` and edit some lines. The site reloads automatically and display your changes.
+## Help
+Some basic help is provided in the help section. If you do not find what you look for, aim for any of the communities (check the footer).
 
-## That's it!
-
-Congratulations! You've successfully run and modified your Docusaurus project.
+## Guiding thread
+1. Before doing anything else, read what you are [expected to know](expectations) before heading into this lecture
+2. Read the [guiding thread](guiding-thread) as a starting point, from there you can explore the docs on your own (or guided by the lecture of course).

@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'By Example',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        One key lesson is to have everything as code. This lesson starts with the lecturer and this is why these docs are strictly <i>As Code</i>.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Community is key',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Another lesson is strength of community. Spot a typo? The author made a mistake? Let him know by modern means (Issues, Pull Requests, Discussions). Check the footers!
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Unsponsored',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        None of the linked tools or methodologies are sponsored. Their purpose is purely educational and the author receive(d) no reward what so ever - these picks are from experience, which does not mean there aren't others or better ones!
       </>
     ),
   },
@@ -88,6 +85,7 @@ export default function Home() {
               </div>
             </div>
           </section>
+          
         )}
       </main>
     </Layout>
