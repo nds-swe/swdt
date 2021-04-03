@@ -35,5 +35,6 @@ Prime suspects are:
 * Foundational frameworks
 * E-Mail templating and sending
 * SMS and any form of notification service
+* Security related topics
 
 This does not only apply to code level, also at Infrastructure or Platform level you might want to buy what is offered. A database operated by AWS will cost you some $, but it will always and forever be cheaper than managing a database by yourself (to name some ankle breakers: scalability, redundancy or resilience).

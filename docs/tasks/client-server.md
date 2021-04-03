@@ -2,7 +2,7 @@
 title: Client-Server
 ---
 
-:::note Metadata
+:::info Metadata
 |Lecture equivalent| Duration |
 |-|-|
 |3| 2h 15min |
@@ -16,7 +16,7 @@ At the end of this task, students
 
 ## Explore DevOps
 
-:::tip Task
+:::note Task
 Head over to our [DevOps](docs/theory/devops) section and follow the Atlassian resource. Read the [complete overview](https://www.atlassian.com/devops/what-is-devops).
 :::
 
@@ -58,7 +58,7 @@ All of them have their dis- and advantages and must be chosen wisely from a futu
 
 For each API, its protocol and what so ever there are different tools available, the two most common we will inspect now.
 
-:::tip Task
+:::note Task
 Read [cURL](/docs/tools/curl) and [Postman](docs/tools/postman) descriptions and install them to your machine. Experiment with them both until you feel comfortable and can say 🗣"I understand how this works!"
 :::
 
@@ -115,7 +115,7 @@ The packer is public 🔓, everyone who knows the URL and has internet access ca
 
 The first REST Endpoint is `/exman`. 
 
-:::tip Task
+:::note Task
 Get the description from it!
 :::
 
@@ -123,7 +123,7 @@ Get the description from it!
 
 ### List all expeditions
 
-:::tip Task
+:::note Task
 Query the second endpoint, list all expeditions names. 
 :::
 
@@ -131,13 +131,13 @@ Three expeditions should always be there. Which ones is it?
 
 ### Get expedition `Mars`
 
-:::tip Task
+:::note Task
 Query the `Mars` expedition and note which equipment it has saved in it.
 :::
 
 ### Post your own expedition
 
-:::tip Task
+:::note Task
 Create your own expedition, post a fantasy expedition of yours to the Packer!
 :::
 
@@ -149,25 +149,25 @@ Create your own expedition, post a fantasy expedition of yours to the Packer!
 
 Did the Packer save your expedition? 
 
-:::tip Task
+:::note Task
 Check it with the `GET` commands.
 :::
 
 ### Get all packaging algorithms
 
-:::tip Task
+:::note Task
 Use the `/algorithms` endpoint to get all available packing methods.
 :::
 
 ### Pack `Mars`
 
-:::tip Task
+:::note Task
 Time to pack 📦 Box in the Mars expeditions using each algorithm once!
 :::
 
 ### Pack your own expedition
 
-:::tip Task
+:::note Task
 Apply the packaging to your own expedition, did you choose the profits and weights well? Could you go to your expedition goal with what you just packed?
 :::
 
@@ -175,7 +175,7 @@ Apply the packaging to your own expedition, did you choose the profits and weigh
 
 ## Invite to Packer
 
-:::tip Task
+:::note Task
 Create an issue in [this repository](https://github.com/nds-swe/swdt/issues/new/choose) stating your GitHub handle (username) and that you would like access.
 :::
 If you do not know how to create an issue, read [this](https://docs.github.com/en/github/managing-your-work-on-github/creating-an-issue).
