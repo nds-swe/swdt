@@ -6,14 +6,16 @@ module.exports = {
       collapsed: false,
       items: [
         'getting-started',
-        'guiding-thread',
         'expectations',
+        'guiding-thread',
       ],
     },
     {
       type: 'category',
       label: 'Theory',
       items: [
+        'theory/devops',
+        'theory/principles',
       ],
     },
     {
@@ -36,9 +38,17 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'ExMan',
+      items: [
+        'exman/suite'
+      ],
+    },
+    {
+      type: 'category',
       label: 'Help',
       items: [
-        'help/faq'
+        'help/faq',
+        'help/books',
       ],
     },
   ],
