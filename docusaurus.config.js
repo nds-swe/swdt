@@ -29,7 +29,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/nds-swe/swdt',
-          label: 'Docs',
+          label: 'GitHub',
           position: 'right',
         },
       ],

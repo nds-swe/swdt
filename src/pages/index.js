@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        None of the linked tools or methodologies are sponsored. Their purpose is purely educational and the author receive(d) no reward what so ever - these picks are from experience, which does not mean there aren't others or better ones!
+        None of the linked tools or methodologies are sponsored. Their purpose is purely educational and the author receives no reward what so ever - these picks are from experience, which does not mean there aren't others or better ones!
       </>
     ),
   },
