@@ -57,18 +57,14 @@ On a first glance it could appear that we generated hard constraints between the
 
 That feedback was true, we invented Gas stations, Football clubs, Wine tastings and many more - even we lost track now. This has been eliminated with ExMan, there is now only one background story for the transfer tasks. You need to learn the story once and you know what all the transfer tasks rotate around - an expedition organization company.
 
-## ExMan repositories
-
-The future of ExMan is open source: [mambax/abb-nds-hf-swe-exman-suite](https://github.com/mambax/abb-nds-hf-swe-exman-suite).
-
 ### Packer
 The packer has been dockerized and uploaded (due to copyrights) to a private repository: [mambax/abb-nds-hf-swe-exman1](https://github.com/mambax/abb-nds-hf-swe-exman1).
 In the [packer repo](https://github.com/mambax/abb-nds-hf-swe-exman1) you find the necessary docs around the packer.
 
 #### Access
-Ask for access by opening an issue [on the suite repository](https://github.com/mambax/abb-nds-hf-swe-exman-suite/issues/new?assignees=mambax&labels=help+wanted&template=packer-repository-access-request-for-user1.md&title=Access+request+exman1+for+user1).
+You will ask for access in your [first task](/docs/tasks/client-server#invite-to-packer).
 
-### Start time
+#### Start time
 The Packer is hosted on an **Azure Free Tier F1**, which has the following properties:
 
 * 60 CPU minutes a day

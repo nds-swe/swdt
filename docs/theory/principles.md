@@ -2,7 +2,7 @@
 title: Principles
 ---
 
-While we try to not reinvent stuff, here are some plain principles that are worth mentioning or remembering.
+While we try to not reinvent stuff or repeat theories, here are some principles that are worth mentioning, remembering or to be pointed out.
 
 ## As A Code
 I can not stress it enough, even if it means climbing a steep learning curve in the beginning, everything must be `As Code`. Every artifact you produce (as an engineer) should be generated from code. DevOps mentions that Infrastructure should be As Code. This should be extended as far as possible as it makes maintenance and reproduction as well as extension way easier. 

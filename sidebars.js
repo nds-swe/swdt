@@ -28,12 +28,16 @@ module.exports = {
       type: 'category',
       label: 'Tools',
       items: [
+        'tools/curl',
+        'tools/postman',
       ],
     },
     {
       type: 'category',
       label: 'Tasks',
       items: [
+        'tasks/about-tasks',
+        'tasks/client-server',
       ],
     },
     {

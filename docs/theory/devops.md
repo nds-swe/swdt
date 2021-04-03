@@ -1,5 +1,5 @@
 ---
-title: DevSecOps
+title: DevOps
 ---
 
 > DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. - *[wikipedia](https://en.wikipedia.org/wiki/DevOps)*
@@ -10,7 +10,7 @@ Read the [resources](#resources) to learn more about DevOps and what it means.
 
 ## DevOps vs DevSecOps
 
-Historically the term _Sec_ is often left away and even though I might forget to add it, I am on no terms trying to neglect the security aspect of engineering, it is just more common to write DevOps only. If I write DevOps, DevSecOps is implied.
+Historically the term _Sec_ is often left away but I am on no terms trying to neglect the security aspect of engineering, it is just more common to write DevOps only. If I write DevOps, DevSecOps is implied.
 
 ## Resources
 
