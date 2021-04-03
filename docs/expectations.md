@@ -5,12 +5,12 @@ title: Expectations
 To follow the theory, techniques and tasks brought to you in this pages and in class, you are expected to bring these **qualifications** or **tools** with you before the first lesson.
 
 ## 🔀 Git
-You can handle git in basic ways. You can `clone`, `pull`, `add`, `commit` and `push` at least. You bring an understanding from previous modules what Git is used for and are at least a novice.
+You can handle git in basic ways. You can, at a minimum, `clone`, `pull`, `add`, `commit` and `push`. You bring an understanding from previous modules what Git is used for and are at least a novice.
 
 If not, [refresh your knowledge](https://learngitbranching.js.org/)!
 
 ## 🐳 Docker
-In the previous semester you came in touch with `docker` a first time. Listen 👂🏽 , you can complete this course without docker but it will be painful and totally not future oriented. The cloud runs on containers! It is most due that you start to engage `docker`.
+In the previous semester you got to know `docker`. Listen 👂🏽 , you can complete this course without docker but it will be painful and totally not future oriented. The cloud runs on containers! It is high time that you start to engage `docker`.
 
 You are expected to have Docker at least installed and that `docker version` actually delivers a result (which in most cases means it works).
 
@@ -44,10 +44,10 @@ OpenJDK 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 ```
 
 ## 🐘 Gradle
-You know how [Gradle](https://gradle.org/) in its idea works and can manage a Java project (in IntelliJ) with it.
+You know how [Gradle](https://gradle.org/) in essence works and can manage a Java project (in IntelliJ) with it.
 
 ## 🎒 Packer
-You are still familiar with the Expedition Manager project and what capabilities the _server_ had when you left him in the first semester. If not, here is a reminder:
+You are still familiar with the Expedition Manager project and what capabilities the _server_ had when you left it in the first semester. If not, here is a reminder:
 
 ```
 ExpeditionManager REST-Schnittstelle mit JSON. Version 1.0:
