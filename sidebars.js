@@ -30,6 +30,7 @@ module.exports = {
       items: [
         'tools/curl',
         'tools/postman',
+        'tools/docker',
       ],
     },
     {
@@ -38,6 +39,7 @@ module.exports = {
       items: [
         'tasks/about-tasks',
         'tasks/client-server',
+        'tasks/spring-starter',
       ],
     },
     {
