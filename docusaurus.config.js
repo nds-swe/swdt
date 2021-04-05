@@ -12,6 +12,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'nds-swe', // Usually your GitHub org/user name.
   projectName: 'swdt', // Usually your repo name.
+  noIndex: true, // Defaults to `false`
   themeConfig: {
     navbar: {
       title: 'Software Design',
