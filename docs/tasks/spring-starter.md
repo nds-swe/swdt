@@ -254,8 +254,8 @@ It is very tedious to keep dependencies up to date. We could implement some algo
 
 [Dependabot](https://dependabot.com/) is capable of maintaining our dependencies for us! Pay it - the bot - a visit (here is the [how to](https://dependabot.com/#how-it-works)) and add it to your project!
 
-Note that at the time of writing Dependabot [is about to become integrated natively into GitHub](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/).
+Here are its [official docs](https://docs.github.com/en/code-security/supply-chain-security/enabling-and-disabling-version-updates)!
 
 <details><summary>Here is a sample solution 😉</summary>
-<a href="https://github.com/nds-swe/spring-starter/releases/tag/sample-solution-1.3.1" target="_blank">Sample solution</a>
+<a href="https://github.com/nds-swe/spring-starter/releases/tag/0.1.0" target="_blank">Sample solution</a>
 </details>
