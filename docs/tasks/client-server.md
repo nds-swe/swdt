@@ -11,7 +11,7 @@ At the end of this task, students
 
 * can explain and present DevOps
 * can send `GET` and `POST` requests with cURL and/or Postman and analyze the results
-* have invited themselves to the private ExMan packer repository (see [repositories](docs/help/repositories)) using an issue (thus have learned to create issues)
+* have invited themselves to the private ExMan packer repository (see [repositories](/docs/help/repositories)) using an issue (thus have learned to create issues)
 :::
 
 ## Explore DevOps
