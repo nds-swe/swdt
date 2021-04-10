@@ -1,0 +1,14 @@
+name: The most simple action ever
+
+on:
+  push:
+    paths: 
+     - .github/workflows/example-action_push.yml
+
+jobs:
+  print-stuff:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Actions are amazing"
+      - run: echo "They run when you push and on many other occasions"
+      - run: echo "Learn more at https://docs.github.com/en/actions/quickstart"
