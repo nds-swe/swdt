@@ -1,0 +1,50 @@
+
+
+@expeditionName = medo-special-expedition-1
+
+# als cURL: curl https://exman.azurewebsites.net/exman 
+GET https://exman.azurewebsites.net/exman HTTP/1.1
+
+###
+
+GET https://exman.azurewebsites.net/exman/expeditions HTTP/1.1
+
+###
+
+GET https://exman.azurewebsites.net/exman/expedition/Mars HTTP/1.1
+
+###
+
+POST https://exman.azurewebsites.net/exman/expedition HTTP/1.1
+content-type: application/json
+
+{
+    "name": "{{expeditionName}}",
+    "items":[
+        {"name":"Laptop","weight":2,"profit":1000000000},
+        {"name":"GitHub Actions Addiction","weight":0,"profit":0}
+     ]
+}
+
+###
+
+GET https://exman.azurewebsites.net/exman/expedition/{{expeditionName}} HTTP/1.1
+
+###
+
+GET https://exman.azurewebsites.net/exman/algorithms HTTP/1.1
+
+###
+
+POST https://exman.azurewebsites.net/exman/pack?limit=2&algorithm=Simple HTTP/1.1
+content-type: application/json
+
+{
+    "name": "{{expeditionName}}",
+    "items":[
+        {"name":"Laptop","weight":2,"profit":1000000000},
+        {"name":"GitHub Actions Addiction","weight":1,"profit":0}
+     ]
+}
+
+# I can not bring my addiction with me :(
