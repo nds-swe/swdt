@@ -171,6 +171,10 @@ Time to pack 📦 Box in the Mars expeditions using each algorithm once!
 Apply the packaging to your own expedition, did you choose the profits and weights well? Could you go to your expedition goal with what you just packed?
 :::
 
+:::success
+You find the sample solution [here](./assets/client-server-sample-solution.http). It is in the `.http` format (which follow the [RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec5.html) standard) and can be imported in [PostMan](/docs/tools/postman) or executed in [VSCode](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
+:::
+
 ---
 
 ## Invite to Packer
