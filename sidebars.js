@@ -22,6 +22,7 @@ module.exports = {
       type: 'category',
       label: 'Techniques',
       items: [
+        'techniques/continuous-integration',
       ],
     },
     {
@@ -31,6 +32,7 @@ module.exports = {
         'tools/curl',
         'tools/postman',
         'tools/docker',
+        'tools/github-actions',
       ],
     },
     {
