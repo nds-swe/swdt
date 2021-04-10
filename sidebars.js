@@ -30,9 +30,9 @@ module.exports = {
       label: 'Tools',
       items: [
         'tools/curl',
-        'tools/postman',
         'tools/docker',
         'tools/github-actions',
+        'tools/postman',
       ],
     },
     {
