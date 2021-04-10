@@ -6,7 +6,7 @@ title: GitHub Actions
 
 🔗 [github.com/en/actions](https://docs.github.com/en/actions)
 
-This repo features the most simple action to start with, [check it out](https://github.com/nds-swe/swdt/blob/main/.github/workflows/example-action_push.yml).
+This repo features the most simple action to start with, [check it out](https://github.com/nds-swe/swdt/blob/main/.github/workflows/example-action_push.yml). You can see the output of this very first action [here](https://github.com/nds-swe/swdt/actions/runs/736246719)!
 
 ## Use
 
