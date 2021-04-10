@@ -4,6 +4,5 @@ title: Repositories
 
 Easy to lose overview, we have these repositories:
 
-- 🔓 [mambax/abb-nds-hf-swe-swdt](https://github.com/nds-swe/swdt) - The source of this page
-- 🔒 [mambax/abb-nds-hf-swe-exman1](https://github.com/mambax/abb-nds-hf-swe-exman1) - The Packer (private, see [exman-suite](/docs/exman/suite) for details)
-- 🔓 [mambax/abb-nds-hf-swe-exman-suite](https://github.com/mambax/abb-nds-hf-swe-exman-suite) - The ExMan Suite, every extension we make to the existing Packer
+- 🔓 [https://github.com/nds-swe/swdt](https://github.com/nds-swe/swdt) - The source of this page
+- 🔒 [nds-swe/exman-packer](https://github.com/nds-swe/exman-packer) - The Packer (private, see [exman-suite](/docs/exman/suite) for details)

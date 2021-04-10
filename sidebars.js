@@ -55,6 +55,7 @@ module.exports = {
       items: [
         'help/faq',
         'help/books',
+        'help/repositories',
       ],
     },
   ],
