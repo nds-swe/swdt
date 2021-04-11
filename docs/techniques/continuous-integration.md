@@ -36,9 +36,9 @@ graph LR
     scan --> result
     coverage --> result
     more --> result
-    result -- fail --> changes
+    result -- any fail --> changes
     merge((Merge to trunk))
-    result --> success --> merge
+    result -- all success --> merge
 ```
 
 The diagram is not yet looking too great, sadly there is [no direction support yet](https://github.com/mermaid-js/mermaid/issues/1265) in sub-graphs 😊

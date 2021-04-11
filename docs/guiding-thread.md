@@ -124,4 +124,6 @@ arrow {
 
 :::note
 This mindmap 👆🏽 is code too, check it out by clicking **Edit this page** at the bottom!
+
+It may also be that you do not see the diagram as it is loaded from an external source (plantuml.com). Maybe you need to allow your browser to do this here.
 :::

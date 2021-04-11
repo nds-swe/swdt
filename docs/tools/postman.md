@@ -41,7 +41,7 @@ Try this:
 Crazy stuff! 😍
 
 ## Other formats
-Postman can not only export cURL but also compost code for many other languages, check their [export feature](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/).
+Postman can not only export cURL but also compose code for many other languages, check their [export feature](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/).
 
 ## Alternatives
 
