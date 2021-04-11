@@ -18,7 +18,7 @@ GitHub Actions have uncountable use cases. In our lecture we will use them for s
 - Execute one or the other integration test
 - Build diagrams or these docs
 
-These bullets all belong to the technique [Continuos Integration](/docs/techniques/continuous-integration).
+These bullets all belong to the technique [Continuous Integration](/docs/techniques/continuous-integration).
 
 Obviously, since one can develop his own actions, this list is endless. You also find GitHub Actions in our [guiding thread](/docs/guiding-thread) in the `Test` area.
 

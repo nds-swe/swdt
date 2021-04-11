@@ -16,33 +16,24 @@ At the end of this task, students
 * have (optionally) added a Dependabot Config to their starter
 :::
 
-## Input
+In the class you have cloned a the pre-made starter [nds-swe/spring-starter](https://github.com/nds-swe/spring-starter).
 
-This task gets two (maybe half finished) inputs:
+To create this starter the following steps have been performed:
 
-* We have started the Spring app in the lecture, it is up to the students to finish the app within this exercise
-* We have started to add a secured endpoint to our starer and will also finished it here
-
-Also, in the lecture today we have analysed [docker](/docs/tools/docker) and we have elaborated how an app can be packaged into an image.
-
-:::note Task
-If you did not finish the tasks in the lecture and miss the inputs above, finish this first and now. 
-
-This tasks involves a lot of reading and self-study - two necessary evils that will pay off in the long run 🏃🏽.
-:::
-
-### Inputs
-If the tutorial from class was too fast for you, repeat the exercise step by step [from here](https://spring.io/guides/gs/spring-boot/). [Here](https://www.jetbrains.com/help/idea/your-first-spring-application.html#what-next) is the same tutorial from IntelliJ.
-
-We have used [start.spring.io](https://start.spring.io/) in the lecture which was the fast lane to creating the Web Application template. Note that you can add the `Spring Web` dependency there already.
+1. Use [start.spring.io](https://start.spring.io/) to create the Web Application template. Note that you can add the `Spring Web` dependency there already.
+2. Glance into these [1](https://spring.io/guides/gs/spring-boot/), [2](https://www.jetbrains.com/help/idea/your-first-spring-application.html#what-next) tutorials to learn the basics.
 
 ![start.spring.io](./assets/start-spring-io.png)
 <small>Caution, images are not from code, they might get deprecated!</small>
 
-## Starter App
-In the lecture we have created on the fast lane an app where we understand only 20% of. A key skill of an engineer is to be able to dive into someone elses code.
+:::note Task
+Invest into your own starter! Clearly you can just take the sample and claim it yours 👺, but, how much will you have learned about dependencies, annotations and Spring then?
+:::
 
-The starter (also the freshly downloaded one from ) contains the following files (shortened for brevity):
+## Starter App
+In the lecture we have analysed the application once already. A key skill of an engineer is to be able to dive into someone elses code.
+
+The starter (also the freshly downloaded one from [start.spring.io](./assets/start-spring-io.png)) contains the following files (shortened for brevity):
 
 ```
 .
@@ -221,12 +212,12 @@ There is three small issues at the moment:
 
 1. Our app does not yet do too much - we will fix that later in the lecture
 2. Our app uses a non-production grade authentication - this is fine for now, we learn an [`E` profile](/docs/guiding-thread#profiles), we draw the line here for now and will improve it later, for now it is secure enough
-3. Our app is not conveniently deployable - we also want to produce an usable artifact
+3. Our app is not conveniently deployable - we also want to produce an usable artifact 👇🏼
 
 ## Building docker
 In the lecture today we have refreshed our [docker](/docs/tools/docker) knowledge. Time to put it under test.
 
-_Hint_: You need a `build` app for the image. The build step is also explained in the tutorial linked on the next line but it should be present from [past lecture _BSY_ (gradle)](/docs/expectations#-gradle).
+_Hint_: You need a `build`(built) app for the image. The build step is also explained in the tutorial linked on the next line but it should be present from [past lecture _BSY_ (gradle)](/docs/expectations#-gradle).
 
 :::note Task
 _Dockerize_ your application, either you figure it our after todays lesson or use the [official tutorial](https://spring.io/guides/gs/spring-boot-docker/).
@@ -244,13 +235,13 @@ Some minor remarks:
 
 ## Push
 :::note Task
-Push the result to a GitHub repository of your chose and hand in the repository URL.
+Push the result to a GitHub repository of your choice and hand in the repository URL via a comment on [this discussion](https://github.com/nds-swe/spring-starter/discussions/2).
 :::
 
 ## Dependabot
 If you made it that far in time, congratulations 🎉. If not, this task is optional or for the interested ones.
 
-It is very tedious to keep dependencies up to date. We could implement some algorithm to solve that... ... ... ... Not, [DRY](/docs/theory/principles#do-not-repeat)! Someone must have done that! **Correct**.
+It is very tedious to keep dependencies up to date. We could implement some algorithm to solve that... ... ... ... NO! [DRY](/docs/theory/principles#do-not-repeat)! Someone must have done that! **Correct**.
 
 [Dependabot](https://dependabot.com/) is capable of maintaining our dependencies for us! Pay it - the bot - a visit (here is the [how to](https://dependabot.com/#how-it-works)) and add it to your project!
 
