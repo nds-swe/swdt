@@ -114,7 +114,7 @@ It is a rare occasion that I write tutorials myself due to the danger of depreca
 
 The app above does not yet feature any endpoint, it is an empty framework. Let us add one.
 
-Create a file `ch/abbts/nds/swe/swdt/starter/GreetingsController.java` and add the following content:
+Create a file `ch/abbts/nds/swe/swdt/starter/EmployeesController.java` and add the following content:
 
 ```java
 package ch.abbts.nds.swe.swdt.starter;
@@ -123,12 +123,21 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Arrays;
+import java.util.List;
+
 @RestController
-@RequestMapping(path = "/greet")
-public class GreetingsController {
-  @GetMapping(path = "/", produces = "application/text")
-  public String greet() {
-    return "Greetings";
+@RequestMapping(path = "/employees")
+public class EmployeesController {
+  @GetMapping(path = "/", produces = "application/json")
+  public List<String> employees() {
+    return Arrays.asList(new String[]{
+        "Tenzing Norgay",
+        "Edmund Hillary",
+        "These names",
+        "should never be available",
+        "to anonymous users!"
+    });
   }
 }
 ```
@@ -136,7 +145,9 @@ public class GreetingsController {
 Investigate this file using Google and answer the following two control questions:
 
 * What does `@RestController` do?
-* What will be the answer when calling `GET /greet/` and why?
+* What will be the answer when calling `GET /employees/` and why?
+* Why is the response a `Arrays.asList`?
+* Does Spring still work, if you name the file `MyController1.java`? If yes, why?
 
 :::
 
@@ -147,11 +158,13 @@ As we said, understanding this requires advanced skills, many of them we will le
 ```java
 ...
 @RestController
-@RequestMapping(path = "/greet-secure")
+@RequestMapping(path = "/employees-secure")
 ...
 ```
 :::note Task
-Repeat the previous step but intend the endpoint to become secure!
+Repeat the previous step but intend the endpoint to become secure! 
+
+**In practise we do not name any endpoint `secure`, this is just for the first time and for the demo!** There are only very few endpoints ever to be made public (e.g. a version info endpoint).
 :::
 
 We will now secure this endpoint!
@@ -170,7 +183,7 @@ public class CustomWebSecurityConfigurerAdapter extends WebSecurityConfigurerAda
     http
         .csrf().disable()
         .authorizeRequests()
-        .antMatchers("/greet/**").permitAll()
+        .antMatchers("/employees/**").permitAll()
         .anyRequest().authenticated()
         .and()
         .httpBasic();
@@ -201,7 +214,7 @@ Secure the endpoint as described above. Answer the following questions carefully
 * What do the highlighted lines do?
 
 <details><summary>Sample solution</summary>
-<a href="https://github.com/nds-swe/spring-starter/releases/tag/sample-solution-1.1.0" target="_blank">Sample solution</a>
+<a href="https://github.com/nds-swe/spring-starter/releases/tag/0.1.1" target="_blank">Sample solution</a>
 </details>
 :::
 
@@ -223,7 +236,7 @@ _Hint_: You need a `build`(built) app for the image. The build step is also expl
 _Dockerize_ your application, either you figure it our after todays lesson or use the [official tutorial](https://spring.io/guides/gs/spring-boot-docker/).
 
 <details><summary>Sample solution</summary>
-<a href="https://github.com/nds-swe/spring-starter/releases/tag/sample-solution-1.3.0" target="_blank">Sample solution</a>
+<a href="https://github.com/nds-swe/spring-starter/releases/tag/0.1.1" target="_blank">Sample solution (check the Dockerfile)</a>
 </details>
 :::
 
@@ -248,5 +261,5 @@ It is very tedious to keep dependencies up to date. We could implement some algo
 Here are its [official docs](https://docs.github.com/en/code-security/supply-chain-security/enabling-and-disabling-version-updates)!
 
 <details><summary>Here is a sample solution 😉</summary>
-<a href="https://github.com/nds-swe/spring-starter/releases/tag/0.1.0" target="_blank">Sample solution</a>
+<a href="https://github.com/nds-swe/spring-starter/releases/tag/0.1.1" target="_blank">Sample solution (check the .github folder)</a>
 </details>
