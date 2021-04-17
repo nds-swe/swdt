@@ -17,7 +17,7 @@ At the end of this task, students
 ## Explore DevOps
 
 :::note Task
-Head over to our [DevOps](docs/theory/devops) section and follow the Atlassian resource. Read the [complete overview](https://www.atlassian.com/devops/what-is-devops).
+Head over to our [DevOps](/docs/theory/devops) section and follow the Atlassian resource. Read the [complete overview](https://www.atlassian.com/devops/what-is-devops).
 :::
 
 ## Client-Server
