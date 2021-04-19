@@ -65,11 +65,28 @@ Use the following bullets to make up your mind:
 * Clients primarily want to use Jinder over a mobile device
 * Agents primarily use Jinder over a desktop
 
-:::success Sample solution
-_Sample solutions will be provided in the end._
+## Component diagram
+:::note Task
+Derive a component diagram from your container diagram.
 :::
 
+:::caution
+You will not be able to get this straight today. This is on purpose. Refactoring and revisiting drafts (_kill your darlings_) is another skill we need to learn. We will _never_ - also not after twenty years - know the perfect architecture from the start. Let us now think of something, challenge it later and revisit our diagrams!
 
+This will also show if we chose the right tool for the job.
+:::
+
+Now we zoom in another layer (and in the same move leave away the most outside layers).
+
+Think of a basic setup of your **main container**(s). Do not look at me 👀, you chose your containers in the step before. Pick one of the containers and enlarge it with the 🔎. With a very high chance you will also look at the `API Application`.
+
+* Code will need to be separated into their matching **domains**
+* It is common that external systems get abstracted through a facade - we learn later why
+* You might want to add something that offers an API
+* Connecting to the database from the container diagram should be done by a specific component so we can switch or update the database anytime
+* It might make sense to send asynchronous notifications with a _Producer-Consumer Pattern_ - we will check in a future lesson why
+
+Once more. You are left in the cold water on purpose so we can revisit our initial drafts and polish them after we have reviewed them with new knowledge. If we get it _right_ in the first try there is nothing to iterate over 🔁
 
 ## Sample solutions
 <a href="solutions/c4-model" target="_blank">Here.</a>
