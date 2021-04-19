@@ -46,12 +46,16 @@ They maybe do not look so pretty but as long as they visualize using C4 _notatio
 This is in descending priority of my personal flavour. You can pick yours ⤵️
 
 1. [PlantUML](/docs/tools/plantuml) - or any of its alternatives described in the tools section
-2. [draw.io](https://app.diagrams.net/) - also used in subject `WEG`
-3. [StarUML](https://staruml.io/) - also used in subject `RME`
-4. [Gliffy](https://www.gliffy.com/) - 💰 if you can get your hands on it
-5. [Visio™️](https://www.microsoft.com/en-ww/microsoft-365/visio/flowchart-software) - 💰 if you can get your hands on it
-6. Powerpoint™️
-7. Word™️ Diagrams
+2. [Violet UML Editor](http://alexdp.free.fr/violetumleditor/page.php) - also used in subjects `ALG` or `OOP`
+3. [draw.io](https://app.diagrams.net/) - also used in subject `WEG`
+4. [StarUML](https://staruml.io/) - also used in subject `RME`
+5. [Gliffy](https://www.gliffy.com/) - 💰 if you can get your hands on it
+6. [Visio™️](https://www.microsoft.com/en-ww/microsoft-365/visio/flowchart-software) - 💰 if you can get your hands on it
+7. Powerpoint™️
+8. Word™️ Diagrams
+
+### VSCode
+For VS Code there is [a plugin](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml), which previews `.puml` files _on the fly_ to the right!
 
 ## Examples
 
