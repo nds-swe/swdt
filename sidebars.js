@@ -23,6 +23,7 @@ module.exports = {
       label: 'Techniques',
       items: [
         'techniques/continuous-integration',
+        'techniques/c4-modeling',
       ],
     },
     {
@@ -33,6 +34,7 @@ module.exports = {
         'tools/docker',
         'tools/github-actions',
         'tools/postman',
+        'tools/plantuml',
       ],
     },
     {
@@ -42,6 +44,14 @@ module.exports = {
         'tasks/about-tasks',
         'tasks/client-server',
         'tasks/spring-starter',
+        'tasks/c4-exman',
+        {
+          type: 'category',
+          label: 'Bites',
+          items: [
+            'tasks/bites/c4-model'
+          ],
+        },
       ],
     },
     {

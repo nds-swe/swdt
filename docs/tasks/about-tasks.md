@@ -23,3 +23,7 @@ The actual tasks look like this.
 :::note Task
 The work to do 🛠💪🏼
 :::
+
+## Bites
+
+Bites (small bites) are tasks that we complete in the lecture together. If you combine some _bites_ together you have enough knowledge for a _task_. Combine the tasks together and you know enough for the module project (🇩🇪 Modularbeit).
