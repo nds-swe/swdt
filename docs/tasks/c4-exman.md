@@ -39,6 +39,13 @@ Now you ask: **"How do I know my RME result is correct?"**
 
 That is exactly the point. You do never know that in practice until you reviewed them with colleagues or seniors 💣 We do that together later!
 
+## C4 Model
+
+:::note Task
+Watch this 📸
+:::
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x2-rSnhpw0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Context diagram
 The context diagram from ExMan has been created within the RME context, also you got to learn in parallel of how the future ExMan **Suite** should look like. This gives us the perfect handover to our subject.
 
