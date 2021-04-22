@@ -30,7 +30,7 @@ Your schedule for this task looks like:
 
 ```mermaid
   graph LR;
-    A[Read ExMan_BA_ASP_V1.0_freigegeben.pdf] --> B
+    A[Study the context and interview from ExMan Suite] --> B
     B[Do ExMan RME task day 2]-->C[Do this task here];
 ```
 You can also do them in parallel 🔥
@@ -40,7 +40,7 @@ Now you ask: **"How do I know my RME result is correct?"**
 That is exactly the point. You do never know that in practice until you reviewed them with colleagues or seniors 💣 We do that together later!
 
 ## Context diagram
-The context diagram from ExMan has been created within the RME context. This gives us the perfect handover to our subject. The rest of the specification you find in the document `ExMan_BA_ASP_V1.0_freigegeben.pdf` in your RME resources.
+The context diagram from ExMan has been created within the RME context, also you got to learn in parallel of how the future ExMan **Suite** should look like. This gives us the perfect handover to our subject.
 
 ## Container diagram
 In the [Learning bite C4 model](bites/c4-model) and in the lecture you have seen the first framework how to derive a container diagram from a context. You also have as input the results of your requirements engineering work.
@@ -58,7 +58,7 @@ With a tool of your choice, derive a container diagram.
 
 ## Component diagram
 
-Your container diagram should contain something in the direction of a `Skill Service` (due to the fact that the requirements in `ExMan_BA_ASP_V1.0_freigegeben.pdf`).
+Your container diagram should contain something in the direction of a `Skill Service` (due to the fact that the ExMan Suite talk of `skills for employees`).
 
 :::note Task
 Zoom into your container diagram, preferably into the _skill area_ and try to derive a component diagram from it.
