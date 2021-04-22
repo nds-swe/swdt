@@ -1,5 +1,5 @@
 ---
-title: C4 Model
+title: C4 Modeling
 ---
 
 🔗 [c4model.com](https://c4model.com/)
@@ -22,7 +22,7 @@ We will write like 5% of _Code_ level documentation, that is not related to docu
 :::
 
 ## Tooling
-The tools, sadly, has to be chosen first. Sadly, because often one regrets the choice not even one week later.
+The tool, sadly, has to be chosen first. Sadly, because often one regrets the choice not even one week later.
 
 The DevOps culture embraces the **YBIYRI** <small>You build it, you run it</small> philosophy, so from a lecturer point of view I will not imply any choice of tool on you. You can generate the diagrams with anything you want. You can even draw them by hand if you see this future oriented and maintainable.
 
@@ -46,13 +46,17 @@ They maybe do not look so pretty but as long as they visualize using C4 _notatio
 This is in descending priority of my personal flavour. You can pick yours ⤵️
 
 1. [PlantUML](/docs/tools/plantuml) - or any of its alternatives described in the tools section
-2. [Violet UML Editor](http://alexdp.free.fr/violetumleditor/page.php) - also used in subjects `ALG` or `OOP`
-3. [draw.io](https://app.diagrams.net/) - also used in subject `WEG`
+2. [draw.io](https://app.diagrams.net/) - also used in subject `WEG`
+3. [Violet UML Editor](http://alexdp.free.fr/violetumleditor/page.php) - also used in subjects `ALG` or `OOP`
 4. [StarUML](https://staruml.io/) - also used in subject `RME`
 5. [Gliffy](https://www.gliffy.com/) - 💰 if you can get your hands on it
 6. [Visio™️](https://www.microsoft.com/en-ww/microsoft-365/visio/flowchart-software) - 💰 if you can get your hands on it
 7. Powerpoint™️
 8. Word™️ Diagrams
+
+
+### Recommended
+[draw.io](https://app.diagrams.net/) will become the preferred drawing tool for our NDS. It will be added to the recommended `toolchain` and used by all subjects starting summer semester 2022.
 
 ### VSCode
 For VS Code there is [a plugin](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml), which previews `.puml` files _on the fly_ to the right!
