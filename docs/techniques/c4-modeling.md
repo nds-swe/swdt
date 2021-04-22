@@ -56,7 +56,7 @@ This is in descending priority of my personal flavour. You can pick yours ⤵️
 
 
 ### Recommended
-[draw.io](https://app.diagrams.net/) will become the preferred drawing tool for our NDS. It will be added to the recommended `toolchain` and used by all subjects starting summer semester 2022.
+[draw.io](https://app.diagrams.net/) will become the preferred drawing tool for our NDS. It will be added to the recommended _toolchain_ and used by all subjects starting summer semester 2022.
 
 ### VSCode
 For VS Code there is [a plugin](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml), which previews `.puml` files _on the fly_ to the right!
