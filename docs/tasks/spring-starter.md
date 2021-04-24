@@ -142,7 +142,7 @@ public class EmployeesController {
 }
 ```
 :::note Task
-Investigate this file using Google and answer the following two control questions:
+Investigate this file using Google and answer the following four control questions:
 
 * What does `@RestController` do?
 * What will be the answer when calling `GET /employees/` and why?
