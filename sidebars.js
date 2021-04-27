@@ -24,6 +24,7 @@ module.exports = {
       items: [
         'techniques/continuous-integration',
         'techniques/c4-modeling',
+        'techniques/hexagonal-architecture',
       ],
     },
     {
@@ -46,11 +47,13 @@ module.exports = {
         'tasks/client-server',
         'tasks/spring-starter',
         'tasks/c4-exman',
+        'tasks/architecture',
         {
           type: 'category',
           label: 'Bites',
           items: [
-            'tasks/bites/c4-model'
+            'tasks/bites/c4-model',
+            'tasks/bites/architecture',
           ],
         },
       ],

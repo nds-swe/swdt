@@ -22,7 +22,7 @@ This context is the result of RME work. It is the basis of the model we make bel
 
 Person(manager, "Expedition Manager", "Manages the company, hires employees and plans expeditions financially")
 Person(leader, "Expedition Leader", "Guides an expedition, defines the requirements for it and selects participants and their equipment")
-Person(admin, "Expedition Leader", "Guides an expedition, defines the requirements for it and selects participants and their equipment")
+Person(admin, "System Admin", "Manages master data")
 
 System_Boundary(c1, "ExMan Suite") {
     ContainerDb(db, "Database", "MySQL", "Persists (on disk) the expedition information")

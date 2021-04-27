@@ -75,6 +75,7 @@ arrow {
 ----_ from/to: WEG
 ---[#lightgreen] Tools
 ---[#lightblue] Techniques
+---- Hexagonal Architecture
 
 -- Build
 ---[#orange] Subjects
