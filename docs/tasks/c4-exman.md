@@ -77,4 +77,4 @@ Zoom into your container diagram, preferably into the _skill area_ and try to de
 
 ## Sample solution
 
-Sample solutions will be published upon completion of the task to spark self-innovation. For now you must take the [Learning bite C4 model](bites/c4-model) as inspiration.
+[Here](solutions/c4-exman).
