@@ -76,7 +76,7 @@ center footer "Generated from code, ❤️ Everything as Code!"
 ```
 #### After
 
-See [C4 ExMan Sample](/docs/tasks/solutions/c4-exman.md) - also I do not [DRY](/docs/theory/principles#do-not-repeat).
+See [C4 ExMan Sample](/docs/tasks/solutions/c4-exman) - also I do not [DRY](/docs/theory/principles#do-not-repeat).
 
 #### Changes
 
