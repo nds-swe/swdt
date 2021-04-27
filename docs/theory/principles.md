@@ -4,6 +4,18 @@ title: Principles
 
 While we try to not reinvent stuff or repeat theories, here are some principles that are worth mentioning, remembering or to be pointed out.
 
+## Iterate
+
+Starting with lectures 9+ ([C4 Modeling](/docs/techniques/c4-modeling)) we will heavily rely on the agile _methodology_ or concept of iterating. The principle of iterating our work in any stage, form or kind is a foundation we need to inject into our DNA.
+
+* No code is ever finished (except if it gets deleted)
+* No diagram is ever done (same)
+* No concept is ever perfect
+
+All of them and more need to be revisited and potentially updated regularly. Deprecated content is worse than no content. Within this principle we must learn that reviewing and challenging content in any form - is it diagrams, code, text or concepts - is 🔑. You can use yourself, your stakeholders, your UX-team, your RME-team, tools, colleagues, teachers, senior colleagues, your neighbor, literally anyone or anything to challenge what you did. Only with iterations, challenges and reviews will your product evolve. 
+
+🔚 On the contrary, if you work in your silo with the waterfall model you will most certainly produce rubbish literally no one besides you and your potential silo buddies can or will use 🗑🙊
+
 ## As A Code
 I can not stress it enough, even if it means climbing a steep learning curve in the beginning, everything must be `As Code`. Every artifact you produce (as an engineer) should be generated from code. DevOps mentions that Infrastructure should be As Code. This should be extended as far as possible as it makes maintenance and reproduction as well as extension way easier. 
 

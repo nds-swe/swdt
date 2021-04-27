@@ -30,6 +30,9 @@ To create this starter the following steps have been performed:
 Invest into your own starter! Clearly you can just take the sample and claim it yours 👺, but, how much will you have learned about dependencies, annotations and Spring then?
 :::
 
+## Spring
+You can read a [small introduction to Spring from the NDS side](/docs/tools/spring) in the tools section.
+
 ## Starter App
 In the lecture we have analysed the application once already. A key skill of an engineer is to be able to dive into someone elses code.
 
