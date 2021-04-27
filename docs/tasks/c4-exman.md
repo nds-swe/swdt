@@ -77,4 +77,4 @@ Zoom into your container diagram, preferably into the _skill area_ and try to de
 
 ## Sample solution
 
-[Here](solutions/c4-exman).
+[Here](./solutions/c4-exman).
