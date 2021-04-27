@@ -35,6 +35,7 @@ module.exports = {
         'tools/github-actions',
         'tools/postman',
         'tools/plantuml',
+        'tools/spring',
       ],
     },
     {
