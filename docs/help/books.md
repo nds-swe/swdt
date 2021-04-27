@@ -19,3 +19,4 @@ title: Books
 - [Clean Code 🇺🇸](https://www.orellfuessli.ch/shop/home/suggestartikel/ID15584054.html)
 - [The Clean Coder 🇺🇸](https://www.orellfuessli.ch/shop/home/suggestartikel/ID27630964.html)
 - [The Pragmatic Programmer 🇺🇸](https://www.orellfuessli.ch/shop/home/suggestartikel/ID143776366.html)
+- [Clean Architecture](https://www.orellfuessli.ch/shop/home/artikeldetails/ID45467250.html)
