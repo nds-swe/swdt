@@ -54,6 +54,7 @@ module.exports = {
           items: [
             'tasks/bites/c4-model',
             'tasks/bites/architecture',
+            'tasks/bites/junit',
           ],
         },
       ],
