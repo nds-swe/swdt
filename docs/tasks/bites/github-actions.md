@@ -67,6 +67,20 @@ Tell the VM what to do.
 
 **That is it!**
 
+## Push
+Push this action on a new branch!
+
+```bash
+git checkout -b first-flow
+git add .
+git commit -m "Added my first flow"
+git push -u origin head
+--> Then press the link in the terminal
+e.g.
+remote: Create a pull request for 'mambax/prepare-day-5' on GitHub by visiting:
+remote:      https://github.com/nds-swe/spring-starter/pull/new/mambax/prepare-day-5 <-- link
+```
+
 ## Result
 This action will now always verify, if the code you just wrote passes the Unit Tests. Always.
 
