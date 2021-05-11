@@ -48,6 +48,7 @@ module.exports = {
         'tasks/spring-starter',
         'tasks/c4-exman',
         'tasks/architecture',
+        'tasks/github-actions',
         {
           type: 'category',
           label: 'Bites',
@@ -55,6 +56,7 @@ module.exports = {
             'tasks/bites/c4-model',
             'tasks/bites/architecture',
             'tasks/bites/junit',
+            'tasks/bites/github-actions',
           ],
         },
       ],

@@ -14,6 +14,9 @@ module.exports = {
   projectName: 'swdt', // Usually your repo name.
   noIndex: true, // Defaults to `false`
   themeConfig: {
+    prism: {
+      additionalLanguages: ['java'],
+    },
     navbar: {
       title: 'Software Design',
       logo: {
