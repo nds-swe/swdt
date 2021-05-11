@@ -71,14 +71,14 @@ Tell the VM what to do.
 Push this action on a new branch!
 
 ```bash
-git checkout -b first-flow
+git checkout -b mambax/first-flow
 git add .
 git commit -m "Added my first flow"
 git push -u origin head
 --> Then press the link in the terminal
 e.g.
-remote: Create a pull request for 'mambax/prepare-day-5' on GitHub by visiting:
-remote:      https://github.com/nds-swe/spring-starter/pull/new/mambax/prepare-day-5 <-- link
+remote: Create a pull request for 'mambax/first-flow' on GitHub by visiting:
+remote:      https://github.com/nds-swe/spring-starter/pull/new/mambax/first-flow <-- link
 ```
 
 ## Result
