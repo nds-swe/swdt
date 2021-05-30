@@ -137,4 +137,4 @@ From now on, no code change that you will do, can be merged if your unit tests f
 :::
 
 ## Sample
-[Here](https://github.com/nds-swe/spring-starter/pull/7/files).
+[Here](https://github.com/nds-swe/spring-starter/pull/7/files). Note that you should also apply the [fix](https://github.com/nds-swe/jinder/pull/7) in order for this sample to run successfully. 

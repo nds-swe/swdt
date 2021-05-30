@@ -49,6 +49,7 @@ module.exports = {
         'tasks/c4-exman',
         'tasks/architecture',
         'tasks/github-actions',
+        'tasks/integration-testing',
         {
           type: 'category',
           label: 'Bites',
