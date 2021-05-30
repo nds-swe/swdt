@@ -39,6 +39,8 @@ This creates _on the fly_ an implementation of the interface `Candidate` that yo
 ## Sample solution
 [Here](https://github.com/nds-swe/jinder/commit/f30b8e28faac75e8064303c1d55e4ee117e7bbd8).
 
+An additional [fix](https://github.com/nds-swe/jinder/pull/7) was added to leverage JUnit5's tagging system.
+
 In the sample there are two more examples of Unit Tests.
 
 * `matchOne` tests the case that at least one skill matches
