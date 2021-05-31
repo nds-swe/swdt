@@ -339,4 +339,4 @@ We use `Azure/container-scan` instead of Snyk because it does not require any to
 ## Sample
 [Here we go](https://github.com/nds-swe/spring-starter/tree/0.1.9).
 
-Note that at the point of writing (28th May 2021) one [CVE](CVE-2021-31535) even in the latest Java image. We must await a fix - check the logs here to [see the scans failing](https://github.com/nds-swe/spring-starter/runs/2704432132?check_suite_focus=true).
+Note that at the point of writing (28th May 2021) one CVE (CVE-2021-31535) even in the latest Java image. We must await a fix - check the logs here to [see the scans failing](https://github.com/nds-swe/spring-starter/runs/2704432132?check_suite_focus=true).
