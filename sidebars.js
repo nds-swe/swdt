@@ -58,6 +58,8 @@ module.exports = {
             'tasks/bites/architecture',
             'tasks/bites/junit',
             'tasks/bites/github-actions',
+            'tasks/bites/rest-assured',
+            'tasks/bites/docker-compose',
           ],
         },
       ],
