@@ -50,6 +50,7 @@ module.exports = {
         'tasks/architecture',
         'tasks/github-actions',
         'tasks/integration-testing',
+        'tasks/strategy-pattern',
         {
           type: 'category',
           label: 'Bites',
