@@ -21,9 +21,3 @@ _Note_ that you need to change the `.class` that you give to the logger.
 
 ## Answer
 What does this class that you hand the factory do anyway?
-:::note Task
-Finish the tasks from the lecture:
-
-- Watch [5 Design Patterns Every Engineer Should Know](https://www.youtube.com/watch?v=FLmBqI3IKMA)
-- Analyse at least three more design patterns over at [refactoring.guru/design-patterns/catalog](https://refactoring.guru/design-patterns/catalog)
-- Ha
