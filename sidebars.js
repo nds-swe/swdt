@@ -62,6 +62,7 @@ module.exports = {
             'tasks/bites/docker-compose',
             'tasks/bites/rest-assured',
             'tasks/bites/health-checking',
+            'tasks/bites/logging',
           ],
         },
       ],
