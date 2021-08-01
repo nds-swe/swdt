@@ -10,6 +10,7 @@ title: Database
 At the end of this task, students
 
 * have linked `spring-starter` to a MySQL database using JPA
+* have run 1 migration with [Liquibase](https://www.liquibase.org/) 
 :::
 
 ## Pre-requisites
