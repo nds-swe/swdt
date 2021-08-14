@@ -30,7 +30,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/nds-swe/swdt',
           label: 'GitHub',
@@ -84,23 +84,24 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Dominik Meyer. Built with Docusaurus.`,
     },
   },
+  customFields: {
+    editUrl: 'https://github.com/nds-swe/swdt/edit/main/'
+  },
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
             'https://github.com/nds-swe/swdt/edit/main/',
-            remarkPlugins: [
-              remarkMermaid,
-              remarkSimplePlantUML
-            ],
+          remarkPlugins: [
+            remarkMermaid,
+            remarkSimplePlantUML
+          ],
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             'https://github.com/nds-swe/swdt/edit/main/blog/',
           remarkPlugins: [
