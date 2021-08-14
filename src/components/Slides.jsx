@@ -10,7 +10,8 @@ export const Slides = ({ htmlFile, title }) => {
     <>
       <iframe src={presentationSrc} height="600px" width="100%" title={title}></iframe>
       <a href={presentationSrc} target="_blank" rel="noopener noreferrer">See in full screen</a>
-      &nbsp;(<Link to={siteConfig.customFields.editUrl + presentationSrc}>Edit</Link>)
+      &nbsp;(<a href={presentationSrc + '?print-pdf'} target="_blank" rel="noopener noreferrer">Print</a> <small><Link to="https://revealjs.com/pdf-export/">How to</Link></small>)
+      (<Link to={siteConfig.customFields.editUrl + presentationSrc}>Edit</Link>)
     </>
   )
 };
