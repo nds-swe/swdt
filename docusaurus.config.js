@@ -30,7 +30,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        { to: 'blog', label: 'Blog', position: 'left' },
+        { to: 'blog', label: 'Slides', position: 'left' },
         {
           href: 'https://github.com/nds-swe/swdt',
           label: 'GitHub',
@@ -71,7 +71,7 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Slides',
               to: 'blog',
             },
             {

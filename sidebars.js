@@ -64,6 +64,7 @@ module.exports = {
             'tasks/bites/rest-assured',
             'tasks/bites/health-checking',
             'tasks/bites/logging',
+            'tasks/bites/swagger',
           ],
         },
       ],
