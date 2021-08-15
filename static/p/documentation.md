@@ -114,7 +114,7 @@ Eine API hingegen ist schwieriger zu verstehen.
 Von Hand --> ⚰️
 Wir nutzen - richtig - eine Library dafür!
 
-Wir wollen uns an den [OpenAPI Standard](https://swagger.io/specification/) halten.
+Wir wollen uns an den [OpenAPI Specification](https://swagger.io/specification/) halten.
 
 Dazu gibt es [Swagger](https://swagger.io/) oder [Spring REST Docs](https://spring.io/projects/spring-restdocs#overview).
 
