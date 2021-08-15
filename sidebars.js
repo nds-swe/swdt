@@ -65,6 +65,7 @@ module.exports = {
             'tasks/bites/health-checking',
             'tasks/bites/logging',
             'tasks/bites/swagger',
+            'tasks/bites/telemetry',
           ],
         },
       ],
