@@ -38,7 +38,7 @@ Unsere Arbeit verfolgbar dokumentieren.
 --
 
 ### User Story
-Als Entwickelnde wollen wir Änderungen an unserem Produkt nachvollziehbar dokumentieren, so dass interne und externe Beobachtende unseren Änderungen folgen können ohne den Code zu analysieren.
+> Als Entwickelnde wollen wir Änderungen an unserem Produkt nachvollziehbar dokumentieren, so dass interne und externe Beobachtende unseren Änderungen folgen können ohne den Code zu analysieren.
 
 --
 
