@@ -53,3 +53,9 @@ Complete [this tutorial](https://dzone.com/articles/integrating-spring-data-jpa-
 _But Dominik, its in PostgreSQL?!_
 
 Yes, but you can also drive a Canyon and a Trek bike... These frameworks are capable of using another technology instead, switch it with your engineering capabilities __OR__ learn something new by switching your `spring-starter` to PostgreSQL!
+
+## Sample
+The sample solution has two steps:
+
+1. [Adding JPA and the MySQL setup](https://github.com/nds-swe/spring-starter/pull/6) - note that this uses _volatile_ data which disappears at restart (except that docker compose caches it, which we circumvent in this part)
+2. [Running a migration](https://github.com/nds-swe/spring-starter/pull/27) on our data (can be done against a persistent service or against the cached compose volume)
