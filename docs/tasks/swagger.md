@@ -43,3 +43,15 @@ Add Swagger to your `spring-starter` using [Setting Up Swagger 2 with a Spring R
 - If you want to have a take at OpenAPI 3.0, try [this tutorial](https://medium.com/@hala3k/setting-up-swagger-3-with-spring-boot-2-a7c1c3151545).
 :::
 
+### No password?
+
+If you apply the changes correctly, your API should ask for a password to see the docs, go back to [spring-starter](spring-starter#securing-an-endpoint) to remember why.
+
+```
+.antMatchers("/swagger-ui/**", "/v2/api-docs", "/swagger-resources/**").permitAll()
+```
+
+👆🏽 will actually make your docs public, if you want that 😏
+
+## Sample
+You can find the sample solution [here](https://github.com/nds-swe/spring-starter/commit/9efd524e8cd9473635e9d78b6c0db315905d3306).

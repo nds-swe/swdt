@@ -26,7 +26,7 @@ Drücke _Esc_ 🔘
 ---
 
 ## Bite
-Lösen Sie nun den Bite [Telemetry](/swdt/docs/tasks/bites/telemetry).
+Lösen Sie nun den Bite [Telemetry](/docs/tasks/bites/telemetry).
 
 ---
 
@@ -53,6 +53,12 @@ Observability
 
 > Power your metrics and alerting with a leading
 open-source monitoring solution. _- [prometheus.io](https://prometheus.io/)_
+
+--
+
+### Demo
+
+Let me show you some examples 😏
 
 ---
 
