@@ -52,6 +52,7 @@ module.exports = {
         'tasks/integration-testing',
         'tasks/strategy-pattern',
         'tasks/database',
+        'tasks/swagger',
         {
           type: 'category',
           label: 'Bites',
