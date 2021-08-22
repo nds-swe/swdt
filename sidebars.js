@@ -41,38 +41,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Tasks',
-      items: [
-        'tasks/about-tasks',
-        'tasks/client-server',
-        'tasks/spring-starter',
-        'tasks/c4-exman',
-        'tasks/architecture',
-        'tasks/github-actions',
-        'tasks/integration-testing',
-        'tasks/strategy-pattern',
-        'tasks/database',
-        'tasks/swagger',
-        {
-          type: 'category',
-          label: 'Bites',
-          items: [
-            'tasks/bites/c4-model',
-            'tasks/bites/architecture',
-            'tasks/bites/junit',
-            'tasks/bites/github-actions',
-            'tasks/bites/docker-compose',
-            'tasks/bites/rest-assured',
-            'tasks/bites/health-checking',
-            'tasks/bites/logging',
-            'tasks/bites/swagger',
-            'tasks/bites/telemetry',
-          ],
-        },
-      ],
-    },
-    {
-      type: 'category',
       label: 'ExMan',
       items: [
         'exman/suite'

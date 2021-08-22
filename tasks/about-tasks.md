@@ -1,5 +1,7 @@
 ---
 title: About
+slug: /
+sidebar_position: 0
 ---
 
 All the tasks feature the same setup.

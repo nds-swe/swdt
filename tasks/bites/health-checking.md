@@ -49,7 +49,7 @@ I won't say more than: `docker-compose up -d`
 
 Run a [cURL](/docs/tools/curl) or a [Postman](/docs/tools/postman) request.
 
-I will not provide an example here, go back to the [very first task](/docs/tasks/client-server) if you do not remember this basic.
+I will not provide an example here, go back to the [very first task](/tasks/client-server) if you do not remember this basic.
 
 ### Terminate
 

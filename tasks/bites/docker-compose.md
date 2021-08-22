@@ -1,5 +1,6 @@
 ---
 title: Docker Compose
+sidebar_position: 10
 ---
 
 :::info Metadata

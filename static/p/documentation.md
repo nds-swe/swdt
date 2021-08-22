@@ -27,7 +27,7 @@ Drücke _Esc_ 🔘
 
 ## Transferaufgabe
 
-[Aufgabe](/swdt/docs/tasks/database)
+[Aufgabe](/swdt/tasks/database)
 
 ---
 
@@ -151,7 +151,7 @@ Wir wollen aber ein User Interface. Auch dafür hat Swagger eine Lösung!
 ---
 
 ## Bite
-Lösen Sie nun den Bite [Swagger](/swdt/docs/tasks/bites/swagger).
+Lösen Sie nun den Bite [Swagger](/swdt/tasks/bites/swagger).
 
 ---
 

@@ -30,7 +30,7 @@ GitHub Actions is only added to the `Test` phase for simplicity and because in t
 Check out their [Quick Start](https://docs.github.com/en/actions/quickstart) or our [super basic action](https://github.com/nds-swe/swdt/blob/main/.github/workflows/example-action_push.yml) from the lecture.
 
 ## Tasks
-You get to know Actions in the tasks [bites/github-actions](/docs/tasks/bites/github-actions) and [github-actions](/docs/tasks/github-actions).
+You get to know Actions in the tasks [bites/github-actions](/tasks/bites/github-actions) and [github-actions](/tasks/github-actions).
 
 ## Alternative
 

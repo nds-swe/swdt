@@ -8,7 +8,7 @@ title: Spring
 
 ## Use
 
-We get to know Spring in the [Task `spring-starter`](/docs/tasks/spring-starter).
+We get to know Spring in the [Task `spring-starter`](/tasks/spring-starter).
 
 Adhering to our principle [DRY](/docs/theory/principles#do-not-repeat) we do not repeat what others already offer for free and maintained. Spring is one of many Java frameworks (we mostly use Spring `core`) and one of hundreds of frameworks.
 
@@ -16,7 +16,7 @@ We use Spring and its core concepts to have a small but fine service we can use 
 
 ## Install
 
-This tool is not installed in a _classy_ way, check the task [`spring-starter`](/docs/tasks/spring-starter) to get started with Spring.
+This tool is not installed in a _classy_ way, check the task [`spring-starter`](/tasks/spring-starter) to get started with Spring.
 
 ## Notes
 
