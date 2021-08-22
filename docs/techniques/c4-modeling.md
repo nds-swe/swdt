@@ -4,7 +4,7 @@ title: C4 Modeling
 
 🔗 [c4model.com](https://c4model.com/)
 
-The C4 Model is ... are you kidding me? We said we do not repeat content that deprecates! If you need technical documentation of the C4 Model, [head over here](https://c4model.com/). There is also a great [onboarding video](https://www.youtube.com/watch?v=x2-rSnhpw0g) that you will watch in [Task C4 ExMan](/docs/tasks/c4-exman)!
+The C4 Model is ... are you kidding me? We said we do not repeat content that deprecates! If you need technical documentation of the C4 Model, [head over here](https://c4model.com/). There is also a great [onboarding video](https://www.youtube.com/watch?v=x2-rSnhpw0g) that you will watch in [Task C4 ExMan](/tasks/c4-exman)!
 
 We use the C4 Model to find a scalable "mid-way" between costly UML and sketches - or worst case having no documentation at all. 
 
@@ -63,4 +63,4 @@ For VS Code there is [a plugin](https://marketplace.visualstudio.com/items?itemN
 
 ## Examples
 
-We get to know the Model with the [C4 Model](/docs/tasks/bites/c4-model) task and deepen it in the [C4 ExMan](/docs/tasks/c4-exman) task.
+We get to know the Model with the [C4 Model](/tasks/bites/c4-model) task and deepen it in the [C4 ExMan](/tasks/c4-exman) task.

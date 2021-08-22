@@ -1,5 +1,6 @@
 ---
 title: C4 Model
+sidebar_position: 10
 ---
 
 :::info Metadata
@@ -89,4 +90,4 @@ Think of a basic setup of your **main container**(s). Do not look at me 👀, yo
 Once more. You are left in the cold water on purpose so we can revisit our initial drafts and polish them after we have reviewed them with new knowledge. If we get it _right_ in the first try there is nothing to iterate over 🔁
 
 ## Sample solutions
-[Here](/docs/tasks/bites/solutions/c4-model).
+[Here](/tasks/bites/solutions/c4-model).

@@ -7,8 +7,6 @@ Welcome to the Software Design and Testing lecture. Read this summary to know ho
 
 The lecture as well as the docs are separated into three main topics:
 
-**Techniques, Tools and Tasks.** There is also a **theory** section, a **help** area and a **blog** but they just complete these docs.
-
 ## Theory
 Our lecture is practice oriented, none the less some concepts are purely theoretical. In this section you find theoretical abstracts of subjects we touch. This is mostly complementary lecture as we will focus on the practical part in **Techniques**.
 

@@ -25,12 +25,23 @@ module.exports = {
       },
       items: [
         {
+          to: 'syllabus/',
+          activeBasePath: 'syllabus',
+          label: 'Syllabus',
+          position: 'left',
+        },
+        {
           to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        { to: 'blog', label: 'Slides', position: 'left' },
+        {
+          to: 'tasks/',
+          activeBasePath: 'tasks',
+          label: 'Tasks',
+          position: 'left',
+        },
         {
           href: 'https://github.com/nds-swe/swdt',
           label: 'GitHub',
@@ -71,10 +82,6 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Slides',
-              to: 'blog',
-            },
-            {
               label: 'Docusaurus 🦖',
               href: 'https://github.com/facebook/docusaurus',
             },
@@ -92,18 +99,11 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
             'https://github.com/nds-swe/swdt/edit/main/',
-          remarkPlugins: [
-            remarkMermaid,
-            remarkSimplePlantUML
-          ],
-        },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/nds-swe/swdt/edit/main/blog/',
           remarkPlugins: [
             remarkMermaid,
             remarkSimplePlantUML
@@ -115,4 +115,54 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'syllabus',
+        path: 'syllabus',
+        routeBasePath: 'syllabus',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        sidebarPath: require.resolve('./syllabus/sidebar.js'),
+        editUrl: 'https://github.com/nds-swe/swdt/edit/main/',
+        remarkPlugins: [
+          remarkMermaid,
+          remarkSimplePlantUML
+        ],
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'tasks',
+        path: 'tasks',
+        routeBasePath: 'tasks',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        sidebarPath: require.resolve('./tasks/sidebar.js'),
+        editUrl: 'https://github.com/nds-swe/swdt/edit/main/',
+        remarkPlugins: [
+          remarkMermaid,
+          remarkSimplePlantUML
+        ],
+      },
+    ],
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          { to: '/tasks/architecture', from: ['/docs/tasks/architecture'] },
+          { to: '/tasks/c4-exman', from: ['/docs/tasks/c4-exman'] },
+          { to: '/tasks/client-server', from: ['/docs/tasks/client-server'] },
+          { to: '/tasks/database', from: ['/docs/tasks/database'] },
+          { to: '/tasks/github-actions', from: ['/docs/tasks/github-actions'] },
+          { to: '/tasks/integration-testing', from: ['/docs/tasks/integration-testing'] },
+          { to: '/tasks/spring-starter', from: ['/docs/tasks/spring-starter'] },
+          { to: '/tasks/strategy-pattern', from: ['/docs/tasks/strategy-pattern'] },
+          { to: '/tasks/swagger', from: ['/docs/tasks/swagger'] },
+        ],
+      },
+    ],
+  ]
 };

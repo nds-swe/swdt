@@ -1,5 +1,6 @@
 ---
 title: Spring Starter
+sidebar_position: 10
 ---
 
 :::info Metadata

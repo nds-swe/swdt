@@ -1,5 +1,6 @@
 ---
 title: Client-Server
+sidebar_position: 10
 ---
 
 :::info Metadata

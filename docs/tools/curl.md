@@ -8,7 +8,7 @@ title: cURL
 
 ## Use
 
-We use cURL to get to know the [Task Client-Server](/docs/tasks/client-server).
+We use cURL to get to know the [Task Client-Server](/tasks/client-server).
 
 ## Install
 

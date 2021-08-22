@@ -62,7 +62,7 @@ The packer has been dockerized and uploaded (due to copyrights) to a private rep
 In the [packer repo](https://github.com/nds-swe/exman-packer) you find the necessary docs around the packer.
 
 #### Access
-You will ask for access in your [first task](/docs/tasks/client-server#invite-to-packer).
+You will ask for access in your [first task](/tasks/client-server#invite-to-packer).
 
 #### Start time
 The Packer is hosted on an **Azure Free Tier F1**, which has the following properties:

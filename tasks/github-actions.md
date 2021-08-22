@@ -1,5 +1,6 @@
 ---
 title: GitHub Actions
+sidebar_position: 10
 ---
 
 :::info Metadata
@@ -20,7 +21,7 @@ At the end of this task, students
 Today we write Unit Tests as `checks`. But actually, as you can read in [GitHub Actions](/docs/tools/github-actions), everything is possible 🪄.
 
 ## Bite
-Before taking any step further, finish the [bite](/docs/tasks/bites/github-actions).
+Before taking any step further, finish the [bite](/tasks/bites/github-actions).
 
 After the bite, you can run unit tests and run them on Pull Requests.
 

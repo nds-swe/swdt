@@ -26,7 +26,7 @@ Drücke _Esc_ 🔘
 ---
 
 ## Bite
-Lösen Sie nun den Bite [Telemetry](/docs/tasks/bites/telemetry).
+Lösen Sie nun den Bite [Telemetry](/tasks/bites/telemetry).
 
 ---
 
