@@ -12,7 +12,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "present": "gulp serve"
+    "present": "gulp serve",
+    "make-presentation": "cp ./static/p/_template.md ./static/p/${PRES:-new}.md && cp static/p/_template.html ./static/p/${PRES:-new}.html"
   },
   "dependencies": {
     "@akebifiky/remark-simple-plantuml": "^1.0.2",
