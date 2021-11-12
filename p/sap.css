@@ -1,0 +1,19 @@
+.yellow {
+  color: rgb(230, 176, 59);
+  font-weight: 900;
+}
+
+ul.goal {
+  list-style: none;
+}
+
+li.goal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+li.goal:before {
+  content: "✅";
+  padding-right: 1rem;
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Empty presentation</title>
+	<link rel="stylesheet" href="reveal.js/dist/reveal.css">
+	<link rel="stylesheet" href="reveal.js/dist/theme/white.css" id="theme">
+	<link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<!-- Slides are separated by newline + three dashes + newline, vertical slides identical but two dashes -->
+			<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+				<script type="text/template">
+					## Demo
+					This presentation is as code and has only 2 slides.
+
+					If you spot a mistake and want to make a contribution, the _Edit_ link is below.
+
+					--
+
+					## PDF
+					You can print it [like so](https://revealjs.com/pdf-export/).
+					For your convenience, below each presentation is a _Print_ link, from where you can just print the presentation as PDF if needed.
+				</script>
+			</section>
+		</div>
+	</div>
+
+	<script src="reveal.js/dist/reveal.js"></script>
+	<script src="reveal.js/plugin/zoom/zoom.js"></script>
+	<script src="reveal.js/plugin/notes/notes.js"></script>
+	<script src="reveal.js/plugin/search/search.js"></script>
+	<script src="reveal.js/plugin/markdown/markdown.js"></script>
+	<script src="reveal.js/plugin/highlight/highlight.js"></script>
+	<script>
+
+		// Also available as an ES module, see:
+		// https://revealjs.com/initialization/
+		Reveal.initialize({
+			controls: true,
+			progress: true,
+			center: true,
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+		});
+
+	</script>
+
+</body>
+
+</html>
